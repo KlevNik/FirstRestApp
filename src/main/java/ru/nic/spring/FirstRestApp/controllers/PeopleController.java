@@ -79,5 +79,4 @@ public class PeopleController {  // Список из объектов клас�
         // В HTTP ответе тело ответа (response) и статус в заголовке
         return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST); //BAD_REQUEST - ответ с сервера 400 статус
     }
-
 }
